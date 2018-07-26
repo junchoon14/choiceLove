@@ -12,6 +12,8 @@
 		BC5785992105F4EC003DD158 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5785972105F4EC003DD158 /* Main.storyboard */; };
 		BC57859B2105F4EF003DD158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC57859A2105F4EF003DD158 /* Assets.xcassets */; };
 		BC57859E2105F4EF003DD158 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC57859C2105F4EF003DD158 /* LaunchScreen.storyboard */; };
+		BCBE3BCB2109A0E30085D4BA /* setofont-ex.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCBE3BC92109A0E20085D4BA /* setofont-ex.ttf */; };
+		BCBE3BCC2109A0E30085D4BA /* setofont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCBE3BCA2109A0E30085D4BA /* setofont.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		BC57859A2105F4EF003DD158 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC57859D2105F4EF003DD158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC57859F2105F4EF003DD158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCBE3BC92109A0E20085D4BA /* setofont-ex.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "setofont-ex.ttf"; sourceTree = "<group>"; };
+		BCBE3BCA2109A0E30085D4BA /* setofont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = setofont.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		BC5785922105F4EC003DD158 /* choiceLove */ = {
 			isa = PBXGroup;
 			children = (
+				BCBE3BC92109A0E20085D4BA /* setofont-ex.ttf */,
+				BCBE3BCA2109A0E30085D4BA /* setofont.ttf */,
 				BC5785932105F4EC003DD158 /* AppDelegate.swift */,
 				BC5785952105F4EC003DD158 /* ViewController.swift */,
 				BC5785972105F4EC003DD158 /* Main.storyboard */,
@@ -123,8 +129,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC57859E2105F4EF003DD158 /* LaunchScreen.storyboard in Resources */,
+				BCBE3BCC2109A0E30085D4BA /* setofont.ttf in Resources */,
 				BC57859B2105F4EF003DD158 /* Assets.xcassets in Resources */,
 				BC5785992105F4EC003DD158 /* Main.storyboard in Resources */,
+				BCBE3BCB2109A0E30085D4BA /* setofont-ex.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
